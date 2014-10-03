@@ -134,7 +134,7 @@ def main():
                             help='Server Port')
         argparser.add_argument('-u','--user',        
                             dest='user',
-                            default='root',
+                            # default='root',
                             metavar='<user>',
                             help='user')
         argparser.add_argument('-k','--key',        
